@@ -35,18 +35,18 @@ class SimpleForm extends Component {
             id : 'question',
             options: [
                 { value: 'How do I use this app?', label: 'How do I use this app?', trigger: '4' },
-                { value: 'how do I navigate once I enter the VR room', label: 'How do I navigate once I enter the VR room', trigger: '5' },
-                { value: 'how do I contact the katabi team?', label: 'How do I contact the katabi team?', trigger: '6' },
+                { value: 'how do search for I store', label: 'How do I search for I store', trigger: '5' },
+                { value: 'how do I contact the convenienC team?', label: 'How do I contact the convenienC team?', trigger: '6' },
               ]
           },
           {
             id: '4',
-            message: 'select from the options on the homepage which room to enter a VR room',
+            message: 'Use the search bar to filter information',
             trigger: '7'
           },
           {
             id: '5',
-            message: 'Use the arrow keys and the mouse to move the Avatar',
+            message: 'You can search using zipcode, product item, or name of the store',
             trigger: '7',
           },
           {
@@ -69,20 +69,16 @@ class SimpleForm extends Component {
           },
           {
             id: '8',
-            message: 'Thank you for using Katabi, have a nice day!!',
+            message: 'Thank you for using ConvenienC, have a nice day!!',
             end: true,
           },
           {
             id: '9',
-            message: 'For further assistance, please contact us at team@katabi.co',
+            message: 'For further assistance, please contact us at convinienc@gmail.com',
             end: true,
           }
         ]}
       />
-
-      {/* <button className="btn"><a href="https://katabi.netlify.app/">
-            Home
-        </a></button> */}
       </div>
       </>
     );

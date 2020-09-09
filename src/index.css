@@ -7,3 +7,15 @@ body {
     flex: 0 1 60 vw;
     margin: 0;
     }
+
+    @keyframes slide {
+        0% {
+          background-color: rgba(83, 46, 126, 0.425);
+        }
+        50% {
+          background-color: rgba(83, 46, 126, 0.76);
+        }
+        100% {
+          background-color: rgba(83, 46, 126, 0.418);
+        }
+      }
