@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    flex: 0 1 60 vw;
+    margin: 0;
+    }

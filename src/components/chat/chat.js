@@ -6,7 +6,7 @@ class SimpleForm extends Component {
   render() {
     return (
       <>
-      <h5>Welcome to Katabi Support Team 
+      <h5>Welcome to Convenienc Support Team 
       <a className="btn ml-2 chatbotBtn" href=" https://bit.ly/39lrV6T">
             BACK
         </a>
